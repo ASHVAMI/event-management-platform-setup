@@ -1,0 +1,76 @@
+# Event Management Platform
+
+This is a full-stack event management platform where users can create, manage, and view events in real time.
+
+## Features
+
+### Frontend:
+- **User Authentication**: Register, log in, and guest login for limited access.
+- **Event Dashboard**: View upcoming and past events with filters for categories and dates.
+- **Event Creation**: Create events with details like name, description, date/time, and more.
+- **Real-Time Attendee List**: See the number of attendees for each event in real-time.
+- **Responsive Design**: Fully responsive for seamless use on any device.
+
+### Backend:
+- **Authentication API**: Uses JWT for secure authentication.
+- **Event Management API**: Full CRUD operations with ownership restrictions.
+- **Real-Time Updates**: WebSockets for real-time event updates.
+- **Database**: Efficiently stores event and user data.
+
+## Technology Stack
+
+### Frontend:
+- **React.js**: User interface.
+- **Netlify**: Hosting for the frontend.
+- **Cloudinary**: Free-tier image hosting for event images.
+
+### Backend:
+- **Node.js & Express.js**: Backend server and API.
+- **MongoDB Atlas/Planetscale**: Cloud database for data storage.
+- **Socket.IO**: Real-time communication.
+
+### Hosting:
+- **Render/Railway.app**: Free hosting for the backend.
+- **MongoDB Atlas/Planetscale**: Free database hosting.
+
+## Installation and Setup
+
+1. Clone the repository:
+   git clone https://github.com/your-repository-url
+   cd event-management-platform
+
+Install dependencies for both frontend and backend:
+cd frontend
+npm install
+
+cd ../backend
+npm install
+
+Create .env files for the frontend and backend with the required configuration (API keys, MongoDB URI, etc.).
+
+Run the frontend and backend:
+cd frontend
+npm start
+
+cd ../backend
+npm start
+
+Access the app at http://localhost:3000 (Frontend) and http://localhost:5000 (Backend).
+
+
+Test User Credentials
+Email: testuser@example.com
+Password: TestPassword123
+
+Evaluation Criteria:
+Functionality: All features implemented and working as described.
+Deployment: App is live and accessible.
+Code Quality: Clean, modular, and well-documented code.
+UI/UX: Intuitive design, fully responsive.
+Performance: Efficiently handles multiple users and real-time updates.
+
+
+Developed by Ashvani S !!!!!!
+
+
+
